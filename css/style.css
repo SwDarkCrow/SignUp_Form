@@ -1,3 +1,10 @@
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --background: #010416;
+  --text: #d3d7fd;
+  --primary: #540893;
+  --secondary: #7e94f8;
+}
