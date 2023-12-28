@@ -3,8 +3,41 @@
 }
 
 :root {
-  --background: #010416;
-  --text: #d3d7fd;
-  --primary: #540893;
-  --secondary: #7e94f8;
+  --background: 1, 4, 22;
+  --text: 211, 215, 253;
+  --primary: 84, 8, 147;
+  --secondary: 126, 148, 248;
+}
+
+body {
+  margin: 0;
+  background: rgb(var(--background));
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 800px;
+  height: 980px;
+  object-fit: cover;
+}
+
+.image-container p {
+  position: absolute;
+  width: 800px;
+  bottom: 0;
+  text-align: center;
+  /*background: rgba(var(--background), 30%);*/
+  color: rgb(var(--text));
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }
