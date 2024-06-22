@@ -16,19 +16,19 @@ body {
 
 .image-container {
   position: relative;
+  display: inline-block;
 }
 
 .image-container img {
-  width: 800px;
-  height: 980px;
   object-fit: cover;
+  height: 100vh;
 }
 
 .image-container p {
   position: absolute;
-  width: 800px;
   bottom: 0;
   text-align: center;
+  width: 100%;
   /*background: rgba(var(--background), 30%);*/
   color: rgb(var(--text));
 }
