@@ -3,8 +3,8 @@
 }
 
 :root {
-  --background: 1, 4, 22;
-  --text: 211, 215, 253;
+  --background: 17, 17, 27;
+  --text: 205, 214, 244;
   --primary: 84, 8, 147;
   --secondary: 126, 148, 248;
 }
@@ -24,13 +24,26 @@ body {
   height: 100vh;
 }
 
-.image-container p {
+#img-title {
+  position: absolute;
+  top: 20vh;
+  width: 100%;
+  background: rgba(var(--background), 0.6);
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+.image-container p, h1 {
+  color: rgb(var(--text));
+  text-align: center;
+}
+
+.image-container>p {
   position: absolute;
   bottom: 0;
-  text-align: center;
   width: 100%;
-  /*background: rgba(var(--background), 30%);*/
-  color: rgb(var(--text));
 }
 
 a {
